@@ -3,10 +3,9 @@ Animate image &amp; border on hover.
 
 Problem Statement
 
--Use @mixins in SASS which passes customer parameter to change the border-radius of three div box.
+-Create a div and add an image inside a div box.
 
---Create a Partial SASS file which should contain custom variable to change the background -color of three
-  div box.
-  Note- Use @import to use partial file in main.Scss file.
+--The image should change its border radius on hover
 
---Use @extends and @includes in your assignment .
+--Use Transition + Transform on hover it should animate the div box with width
+  of 500px and height 0f 400px.
