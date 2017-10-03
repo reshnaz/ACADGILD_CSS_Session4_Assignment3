@@ -1,0 +1,36 @@
+
+/*Setting an apt background color*/
+body{
+	background-color: #D8AC6F;
+}
+
+/*Setting spacing around main content (text and image)*/
+.mainDiv{
+	margin: 100px auto;
+}
+
+/*Formatting the text you see on the rendered HTML*/
+span{
+	font-size: 20px;
+	color: #5579AC;
+	font-weight: bold;
+}
+
+/*Below properties make the div containing our image skew (transform), 
+apply sizing and trasition properties -- increase width & height in 2 seconds duration on hover.*/
+.content {
+	width: 136px;
+	height: 123px;
+	border: 20px solid #5579AC;
+	transition: width 2s linear, height 2s linear, border-radius 2s linear;
+	transform: skewY(5deg);
+}
+
+/*Below style focusses on what happens to the image and border on hover*/
+
+/*Formatting image/border on hover*/
+.content:hover{	
+	width: 500px;
+    height: 400px;
+    border-radius: 20px;
+}
